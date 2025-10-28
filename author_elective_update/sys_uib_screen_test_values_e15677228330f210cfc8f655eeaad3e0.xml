@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent/>
+        <macroponent_config>{ }</macroponent_config>
+        <screen display_value="NeedIt Application default">d55677228330f210cfc8f655eeaad3dc</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-28 12:09:18</sys_created_on>
+        <sys_id>e15677228330f210cfc8f655eeaad3e0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_e15677228330f210cfc8f655eeaad3e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-28 12:09:18</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>32e20733eb24a69056eafddacad0cd8f</instance_id>
+        <instance_name>dev315181</instance_name>
+        <name>sys_uib_screen_test_values_e15677228330f210cfc8f655eeaad3e0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent/><macroponent_config>{ }</macroponent_config><screen display_value="NeedIt Application default">d55677228330f210cfc8f655eeaad3dc</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-10-28 12:09:18</sys_created_on><sys_id>e15677228330f210cfc8f655eeaad3e0</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_uib_screen_test_values_e15677228330f210cfc8f655eeaad3e0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-10-28 12:09:18</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>-133278473</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0582d6c983f4b210cfc8f655eeaad30d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-28 12:09:18</sys_created_on>
+        <sys_id>695677228330f210cfc8f655eeaad3ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19a2ab8fecd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-28 12:09:18</sys_updated_on>
+        <type>UIB Test Values</type>
+        <update_guid>ad567722a230f210353b6be108a4e8ec</update_guid>
+        <update_guid_history>ad567722a230f210353b6be108a4e8ec:-133278473,a55677220630f210474afe043be184e1:420538956</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-28 12:26:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>95a360b3dbb94b50a7eeb179aa3396a1</sys_id>
+        <sys_metadata>e15677228330f210cfc8f655eeaad3e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_e15677228330f210cfc8f655eeaad3e0</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_e15677228330f210cfc8f655eeaad3e0">695677228330f210cfc8f655eeaad3ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-28 12:26:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
