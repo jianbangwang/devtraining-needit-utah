@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Daily process to find overdue NeedIt Tasks and notify the person assigned the task.</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>find_overdue_needit_tasks</internal_name>
+        <label_cache>[{"name":"a95c2f74-65e3-49be-8990-40ff2781e97b.Records","label":"1➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Records","type":"records","base_type":"records","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c3c0b36f-9aaf-4764-a8ed-65fa71dc1546.item","label":"2➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task Record","type":"reference","base_type":"reference","parent_table_name":null,"column_name":null,"choices":null,"usedInstances":{},"attributes":{"pills_draggable_outside_block":"false","pills_draggable_inside_block":"true"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Find Overdue NeedIt Tasks</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-28 02:22:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9410f9ea8334b210cfc8f655eeaad316</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Find Overdue NeedIt Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_9410f9ea8334b210cfc8f655eeaad316</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-28 02:26:08</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record display_value="Created 2025-10-27 19:25:59">30d0bd2e8334b210cfc8f655eeaad340</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=9410f9ea8334b210cfc8f655eeaad316"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9410f9ea8334b210cfc8f655eeaad316"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=9410f9ea8334b210cfc8f655eeaad316"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=9410f9ea8334b210cfc8f655eeaad316^sys_idNOT IN14103dea8334b210cfc8f655eeaad311"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>9410f9ea8334b210cfc8f655eeaad316</id>
+        <name>Find Overdue NeedIt Tasks</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-28 02:22:40</sys_created_on>
+        <sys_id>14103dea8334b210cfc8f655eeaad311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-28 02:22:40</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=14103dea8334b210cfc8f655eeaad311"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=9410f9ea8334b210cfc8f655eeaad316"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=9410f9ea8334b210cfc8f655eeaad316"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9410f9ea8334b210cfc8f655eeaad316"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=9410f9ea8334b210cfc8f655eeaad316^sys_idNOT IN1b10bdea8334b210cfc8f655eeaad3a3"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Find Overdue NeedIt Tasks">9410f9ea8334b210cfc8f655eeaad316</flow>
+        <generation_source/>
+        <name>Daily</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-28 02:22:52</sys_created_on>
+        <sys_id>1b10bdea8334b210cfc8f655eeaad3a3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-28 02:23:01</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/22Sy27bMBBFf6XgWhUoO+lDuyKBgQJpA9RGNkEgjMSRTZQPlaScqIb/vUNRVuw0hjacx+W9x3w8MAU1KlayjdTIMiZNQGdAbYYOqbpVUmAVUk+DERCsG1gZXI8Za53VG9SdgkDDLShPResEOlYWnGdsD6rH9eC/C9IiBQM6qk56Y5eOxdfP/CMv6PvAeVlcl5xTV0hPwsPDNESVZieVcGhY+fiUsQ4cqYV412G2fSfN7/eGZTSwBHGFouHNckE/zhdfror607IuFmIJiNe09YbGpd/wDpNYu7tcOgeALwGNQDHT+Y+hQxD3Rg3zxI6ypAgaXrz8i5OUwxYpTzPBmI/VBCqV21sIsCbpJvRu5mZlgz6RENhCr8LNeS0N3HdBWpNWAtTqtG1Vr83PRILNAmf/S+/JBHYxaLQ+5WjXO/v86+RyJc1IZWoq24CaTxCCk3Ufop8DQ4WahCoNXSfNtuqc3ctxmbzofMSft8o+06Vebk0OTTSeE1fIV1S/HcsP4GRM8YNkaPmYMT/4GwXev2YhiNWfPjpJyaYMVcJwnB/hSqKanrBvnOzCN7pyf3rzx6d/tQEw9kgDAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=9410f9ea8334b210cfc8f655eeaad316^sys_idNOT IN2ab0312e8334b210cfc8f655eeaad3b5,4930b56a8334b210cfc8f655eeaad371"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Notification">0d8dd9f10f11101051218e8ebc767e27</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Find Overdue NeedIt Tasks">9410f9ea8334b210cfc8f655eeaad316</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>c3c0b36f-9aaf-4764-a8ed-65fa71dc1546</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-28 02:25:33</sys_created_on>
+        <sys_id>2ab0312e8334b210cfc8f655eeaad3b5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-28 02:25:58</sys_updated_on>
+        <ui_id>081e068a-d200-4945-9481-a127a4b088ea</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VVTW/bMAz9K4XOcSDbie3kNqwoUKBLgbXbZSgMWqIaYfLHZDlrFvS/T7KdNE7bbO3aw05BaFJ8fOQjv22I5GROJn7C+Uz4VPi+T3069QM/wQQzFkcxhgkZkQJytJ5FaaSQDIwsC2tdgWqcmVEaslhEVLAgDiilnIaUZwztWxTDzLpyWVcK1l/7iMsVat7gyQKRn5uTa6i/Wye2lIprLMj8282IVKBtVoOazDcHn/4WtoIMlXVdDHE/XY1ZV86qUaBNxLA3XfRvfN6zl5o7WOGI4J3BgqPFI0DVOCI5FBxMqddkbnRjDRqBXxZqvfNYysLY94jzvavlL5s0DEZ7eeekXte4wsKkmINUKbAe4s4n7fl8XJs4BQNXNjUzjcYuD1uWkmHdccdRQKPMx31b53BZtW+0IQYydQwJK1WTF4uOSBACmUGeComKp2WRtjFkl2zbdmtpagseK0eao6HjSFwty587gs9k0dLb86VKBmr3T1whaLY8c5lcDx2CEQFjtMwa4wraDBs7Jy6Hyyyvn2knKsxdjTlUlSxu00qXK9lCsHXm41tl/4yFKn9a5LW8LcYdDWPbaBifWftpa/4KWjraPtlnbPA248FM1WjSnpbUPZCKUufgJqKtsA37UsgfDZ63Uz7zMQ6DxJtFAfMmGE69jIeh5/tWXwgoAu6T+5Fr1EcFdd23pBuW9EfjqCNtJ3rO044TBzRt2XPBTMvKfLBVrbBn+n603Q78mMyCve2gkVlh7O2FzYaFjGZhJLwZgPAmcTTxIEHuRVMBsc+ZP51EY2kwv79/vCRevhH+DFXt2t9jPcTebwFesqadCckP9sBp/+Xk/PRhE/jHN0Fvec0qeEb1b6/0Q1G/i3qHOh0qckjsu2ty2OGB5rhP43BGmRcH09CbUAZelvDMgywQ08kkSqLsfTWXHD9twcPc7r35oLu7dJokcZAW9rpKs/0x3ZE9ENm/XOC/gLnV23U7ZU/D7iX3yHaxH3uy6D70ggteKLhuUp/QW0L/I73tbuCbCG7A67vrbdDegdxYlmUiw5lnT5o9cTEmXhJA7OGUslAEIaWxeIXcnhPZzW9h7jKU+AoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2ab0312e8334b210cfc8f655eeaad3b5"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Find Overdue NeedIt Tasks">9410f9ea8334b210cfc8f655eeaad316</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-28 02:23:16</sys_created_on>
+        <sys_id>4930b56a8334b210cfc8f655eeaad371</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-28 02:24:32</sys_updated_on>
+        <ui_id>a95c2f74-65e3-49be-8990-40ff2781e97b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VXXW/aMBT9KyhPmxShUD7KeJuoKlVqi9RWfem66CZ2wKtxstjho6j/fdd2EhikFLY8MO0J5V7b9/jcc2zztHIYcQaOF3U8D1rd/rnntdue1+u1Q2gFQbsXBl7Q/eK4joApxZEyTpWvlgnF0Ax4VsZAhhgiTCYclo95BhoqbrxiPJwwTlIqnMHTs+skkOJqiqbOYLWVOhQOh4ByHHqPtRsPFk8FRPMzwBoxC4vv63zqsAjGKdFQ2q5DF4oKQhFDBFxS15mCIKDidFlGUgpkJPg6MGFC4WqOHryQ7BXrtc/0uIjirkJqc+Wnn1Nkw9EFKLhXaRaqLM2HWrAS+ViV2yyJrOA8h++9uevxr3o8bI8ndHNC6w35JjSCjKvhn9VsHVvzTNe0GxwlisXYdaet+wIBL7Yf82wqbm0vnRLhY4XYbObiHc1lEsmmiW6o7lDeruh+Es/vim5cMmFw5Ukeh8DLL1AqZUGmNC8rJyJ+xCgnPhOcCV0J26blQzmdYgV/CknCxNhP0njGzKq4l2lzzPGjGfF4rrlgY9GEUO+8icKC5iXGL0z4EVKmWbjBZXCyqwtOcGpez5dhyhLlzxkZU7WuXowisZoDf6nK54rzi0aZ7TlvriOXcshByjXZKFP/Z6Y5sNTn7PmmUWaKQfEVdzCjOVFaA8a24fle23a3LGobvaGX3fPj6JPjAAgFCyOtyEawfA9VfnTYnpsRvx8flzrRuLWJQt61HSF9r54jpMriuxY8yoG71tJS+3ecdbzwLTcfqL+z99LqtdY6wyb7KZVIqdxQf8vzvF0HtFwbPs4GB2ApbHADi8ZdCaYSYe4EFCkdm5Np0wZXZTT3QKc2D3RO1wNFsypvoKJnNV9Ap+KGj4zQ3/9689YyC2NBmMa46QMwi37LcDLR58B3kiGNoGwo/AEzsNUHY9kM6JgJgWyMooeYwPLT54pH6F8veJz5Dth/Yb7hJgFVpBTv1+3YddUCxaOsRgN6p2vB2q+hU/HXQbfNfpF1grWe7HJrfy38br9/fuYLSlE6xY8C+bJrnVtMXuH/K5us0wYGYWGDhxziFuJc/Oaz6gVmpm29wLz/8wV2mncLAmIcFeLbFso4Sw2VMz/kmTSJFIS0a9V4Ez3/Aj+N13jYEAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4930b56a8334b210cfc8f655eeaad371"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=9410f9ea8334b210cfc8f655eeaad316"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=9410f9ea8334b210cfc8f655eeaad316^sys_idNOT IN3580f52e8334b210cfc8f655eeaad331"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">f980f52e8334b210cfc8f655eeaad330</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Find Overdue NeedIt Tasks">9410f9ea8334b210cfc8f655eeaad316</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-28 02:24:41</sys_created_on>
+        <sys_id>3580f52e8334b210cfc8f655eeaad331</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-28 02:25:33</sys_updated_on>
+        <ui_id>c3c0b36f-9aaf-4764-a8ed-65fa71dc1546</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51TTW+jMBD9Lz4TxEeahNyqVpUq7W6ltOplVUWDPSTWGpu1TVIW8d93HAitelrtCebN13uPoWem9U3r3Yu5dU4eNNv+fIuY1AGj955JwbYsLURVpEnB82yVZ0mSbZZpucrLNBM5oFixiGmokSqlx9pReALVhrjvobjhWbVeLlY3mC+WRYmLTVEki2VSVdl6k2KxLuMdcmOFGwZqFdI1CrrX/5/Aj1IJi5OYBixx82jZtv+S+ldxCkpUVPo4qfsi1ndNCO1IYQK+TT27GaVHIJElEcN3j1ogra9AOYxYDVqAN7ZjW29bAiyCeNKqmyuOUnsax0Ltu5N/aGOaJKGwQhLEcUzO4X7ycYSre/DwTKO5b+1Uyo9GcnSjFQIraJW/+4yNBU+Nl0aPLR5Kde02qq31j9EJNg+4fjZCWkcksAlCA/VJR/V8NOfdleWD1BdTpqQyHNQcgfdWlq0PfHqGCmsatK+haaQ+7BtrTvLSTFzq+KAoiCtlzrQ0nHIMPBCPyVeIHwi/v8CvYGVQ8Z3GUPMQMde5OwXOfWghE/e/28BkVDZp2I82hBZuZeNvacEJJ7rDW7j6cfbsKZeOKLwE7PH6T4VERxck+WfobOyvQP4DG/4C4umPUZ0DAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=9410f9ea8334b210cfc8f655eeaad316"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=9410f9ea8334b210cfc8f655eeaad316"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9410f9ea8334b210cfc8f655eeaad316"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9410f9ea8334b210cfc8f655eeaad316"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=9410f9ea8334b210cfc8f655eeaad316"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=9410f9ea8334b210cfc8f655eeaad316"/>
+</record_update>
